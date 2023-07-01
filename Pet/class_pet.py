@@ -16,7 +16,15 @@ class Pet:
     def set_age(self, age):
         self.__age = age
 
-# Create the getter for the attibutes
+    # Create the getter for the attibutes
+    def get_name(self):
+        return self.__name
+    
+    def get_animal_type(self):
+        return self.__animal_type
+
+    def get_age(self):
+        return self.__age
 
 # Create the object
 
