@@ -30,5 +30,8 @@ class Pet:
 pet = Pet()
 
 # Ask for inputs
+pet.set_name(input("What is the name of your pet?: "))
+pet.set_animal_type(input("What type of animal is your pet?: "))
+pet.set_age(input("How old is your pet?(in months): "))
 
 # Print the information
