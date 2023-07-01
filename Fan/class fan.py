@@ -1,5 +1,5 @@
 # Create class fan
-
+class Fan:
 # Create the constants
 
 # Initialize the needed data field
