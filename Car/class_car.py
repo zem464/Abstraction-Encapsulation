@@ -27,6 +27,7 @@ class Car:
         return self.__speed
 
 # Create the object
+car = Car(2013, 'Hyundai', 0)
 
 # Create the accelerating information 
 
