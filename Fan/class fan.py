@@ -25,6 +25,17 @@ class Fan:
     def get_fan_on(self):
         return self.__fan_on
 
-# Create the setters
+    # Create the setters
+    def set_speed(self, speed):
+        self.__speed = speed
+    
+    def set_radius(self, radius):
+        self.__radius = radius
+
+    def set_color(self, color):
+        self.__color = color
+
+    def set_fan(self, fan_on):
+        self.__fan_on = fan_on
 
 # Create methods for the default values
