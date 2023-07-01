@@ -6,9 +6,15 @@ class Car:
             self.__make = make
             self.__speed = speed
 
-# Create the method for acceleration
+    # Create the method for acceleration
+    def accelerate(self):
+            self.__speed += 5
 
-# Create the method for braking
+    # Create the method for braking
+    def brake(self):
+            self.__speed -= 5
+            if self.__speed < 0:
+                self.__speed = 0
 
 # Create the getter for the attributes
 
