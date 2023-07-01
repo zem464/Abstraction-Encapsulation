@@ -1,5 +1,5 @@
 # Create the class for the car
-
+class Car:
 # Initialize the needed attributes
 
 # Create the method for acceleration
