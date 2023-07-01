@@ -16,7 +16,15 @@ class Car:
             if self.__speed < 0:
                 self.__speed = 0
 
-# Create the getter for the attributes
+    # Create the getter for the attributes
+    def get_year_model(self):
+        return self.__year_model
+    
+    def get_make(self):
+        return self.__make
+
+    def get_speed(self):
+        return self.__speed
 
 # Create the object
 
