@@ -27,6 +27,7 @@ class Pet:
         return self.__age
 
 # Create the object
+pet = Pet()
 
 # Ask for inputs
 
