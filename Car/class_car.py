@@ -30,5 +30,11 @@ class Car:
 car = Car(2013, 'Hyundai', 0)
 
 # Create the accelerating information 
+print("ACCELERATION")
+print("\nCar year model: ", car.get_year_model())
+print("Car made of: ", car.get_make())
+for _ in range(5):
+    car.accelerate()
+    print("Current speed: ", car.get_speed())
 
 # Create the braking information
