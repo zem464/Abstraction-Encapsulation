@@ -1,5 +1,5 @@
 # Create the class instance
-
+class Pet:
 # Create the initializing constructor
 
 # Create the setter for the attributes
