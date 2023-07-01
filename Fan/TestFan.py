@@ -7,18 +7,18 @@ def TestFan():
     fan2 = Fan(Fan.medium, 5, "Blue", False)
 
     # Display fan1
-    print("[First Fan]")
-    print("Speed: ", fan1.get_speed())
-    print("Radius: ", fan1.get_radius())
-    print("Color: ", fan1.get_color())
-    print("On: ", fan1.get_fan_on())
+    print("\n[\033[35;40m\033[1m    First Fan   \033[0m]")
+    print("\n\033[31;40m\033[1mSpeed: \033[31m\033[0m", fan1.get_speed())
+    print("\033[31;40m\033[1mRadius: \033[31m\033[0m", fan1.get_radius())
+    print("\033[31;40m\033[1mColor: \033[31m\033[0m", fan1.get_color())
+    print("\033[31;40m\033[1mOn: \033[31m\033[0m", fan1.get_fan_on())
 
     # Display fan2
-    print("[Second Fan]")
-    print("Speed: ", fan2.get_speed())
-    print("Radius: ", fan2.get_radius())
-    print("Color: ", fan2.get_color())
-    print("On: ", fan2.get_fan_on())
+    print("\n[\033[35;40m\033[1m    Second Fan  \033[0m]")
+    print("\n\033[31;40m\033[1mSpeed: \033[31m\033[0m", fan2.get_speed())
+    print("\033[31;40m\033[1mRadius: \033[31m\033[0m", fan2.get_radius())
+    print("\033[31;40m\033[1mColor: \033[31m\033[0m", fan2.get_color())
+    print("\033[31;40m\033[1mOn: \033[31m\033[0m", fan2.get_fan_on())
 
 # Call the main function
 TestFan()
