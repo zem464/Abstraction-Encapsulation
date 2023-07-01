@@ -38,4 +38,15 @@ class Fan:
     def set_fan(self, fan_on):
         self.__fan_on = fan_on
 
-# Create methods for the default values
+    # Create methods for setting the default values
+    def speed(self):
+        self.speed = 1
+
+    def radius(self):
+        self.radius = 5
+
+    def color(self):
+        self.color = 'Blue'
+
+    def fan_on(self):
+        self.fan_on = False
