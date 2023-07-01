@@ -21,4 +21,5 @@ class TestFan(Fan):
         print("Color: ", fan2.get_color())
         print("On: ", fan2.get_fan_on())
 
-# Close the program
+# Close the program by creating an instance method
+TestFan().main()
